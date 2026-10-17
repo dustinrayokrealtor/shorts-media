@@ -1,0 +1,91 @@
+{
+ "asof": "2026-10-17",
+ "week": [
+  "2026-10-10",
+  "2026-10-16"
+ ],
+ "sold_week": 8,
+ "sold_prev_week": 16,
+ "sold_4wk_avg": 17.0,
+ "sold_90_monthly": 94.0,
+ "median_sold_30": 215000.0,
+ "median_dom_30": 34,
+ "sale_to_list_30": 98.0,
+ "closings_30": 81,
+ "active": 343,
+ "on_market_rows": 353,
+ "new_listings_week": 18,
+ "new_basis": "list date",
+ "price_cut": 138,
+ "price_cut_pool": 343,
+ "price_cut_pct": 40.2,
+ "months_supply": 3.6,
+ "supply_basis": "the last 90 days of sales",
+ "rate": 7.4,
+ "rate_prev": 7.4,
+ "rate_date": "2026-10-15",
+ "sold_export": {
+  "file": "SOLD90.csv",
+  "rows": 282,
+  "first_close": "2026-07-20",
+  "last_close": "2026-10-15",
+  "columns": {
+   "mls": "MLS #",
+   "status": "Status",
+   "list_price": "Asking Price",
+   "orig_price": "Original Price",
+   "sold_price": "Sold Price",
+   "close_date": "Closing Date",
+   "list_date": "Listing Date",
+   "dom": "Days On Market"
+  }
+ },
+ "onmarket_export": {
+  "file": "ONMARKET.csv",
+  "rows": 353,
+  "columns": {
+   "mls": "MLS #",
+   "status": "Status",
+   "list_price": "Asking Price",
+   "orig_price": "Original Price",
+   "sold_price": "Sold Price",
+   "close_date": "Closing Date",
+   "list_date": "Listing Date",
+   "dom": "Days On Market"
+  }
+ },
+ "files": [
+  {
+   "file": "ONMARKET.csv",
+   "kind": "onmarket",
+   "rows": 353,
+   "matched": {
+    "mls": "MLS #",
+    "status": "Status",
+    "list_price": "Asking Price",
+    "orig_price": "Original Price",
+    "sold_price": "Sold Price",
+    "close_date": "Closing Date",
+    "list_date": "Listing Date",
+    "dom": "Days On Market"
+   }
+  },
+  {
+   "file": "SOLD90.csv",
+   "kind": "sold",
+   "rows": 282,
+   "matched": {
+    "mls": "MLS #",
+    "status": "Status",
+    "list_price": "Asking Price",
+    "orig_price": "Original Price",
+    "sold_price": "Sold Price",
+    "close_date": "Closing Date",
+    "list_date": "Listing Date",
+    "dom": "Days On Market"
+   }
+  }
+ ],
+ "problems": [],
+ "warnings": []
+}
